@@ -1,0 +1,25 @@
+/**
+ * overwrite CSS rules for this template
+ */
+
+.header h1.logo a {
+  background:transparent url('/img/logo-white-header.png') no-repeat left center;
+  background-size:117.5px 24px;
+  width:118px;
+}
+
+.header.scrolled h1.logo a {
+  background:transparent url('/img/logo-solid-header.png') no-repeat left center;
+  background-size:117.5px 24px;
+  width:118px;
+}
+.hero-logo { opacity:0.8; }
+@media (max-width: 767px) {
+  .hero-logo { width:300px; }
+}
+@media (min-width: 768px) {
+  .hero-logo { width:480px; }
+}
+@media (min-width: 992px) {
+  .hero-logo { width:600px; }
+}
