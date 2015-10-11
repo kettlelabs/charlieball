@@ -4,14 +4,14 @@
 
 .header h1.logo a {
   background:transparent url('/img/logo-white-header.png') no-repeat left center;
-  background-size:117.5px 24px;
-  width:118px;
+  background-size:131.5px 24px;
+  width:132px;
 }
 
 .header.scrolled h1.logo a {
   background:transparent url('/img/logo-solid-header.png') no-repeat left center;
-  background-size:117.5px 24px;
-  width:118px;
+  background-size:131.5px 24px;
+  width:132px;
 }
 .hero-logo { opacity:0.8; }
 @media (max-width: 767px) {
