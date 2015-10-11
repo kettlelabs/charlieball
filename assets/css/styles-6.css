@@ -3123,9 +3123,6 @@ select {
   .footer-col {
     margin-bottom: 30px;
   }
-  .footer-col .form-control {
-    width: auto;
-  }
   .footer .footer-col .navbar-form {
     padding-left: 15px;
     border: none;
