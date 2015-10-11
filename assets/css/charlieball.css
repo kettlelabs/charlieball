@@ -23,3 +23,8 @@
 @media (min-width: 992px) {
   .hero-logo { width:600px; }
 }
+
+a i.fa-facebook-square { color:#3B5998; }
+a i.fa-twitter { color:#00aced; }
+a i.fa-instagram { color:#125688; }
+a i.fa-pinterest { color:#cb2027; }
