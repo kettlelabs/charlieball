@@ -28,3 +28,26 @@ a i.fa-facebook-square { color:#3B5998; }
 a i.fa-twitter { color:#00aced; }
 a i.fa-instagram { color:#125688; }
 a i.fa-pinterest { color:#cb2027; }
+a:hover i.fa-5x {
+  /* icon hovers grow, but add a negative top-margin so that it doesn't take up space*/
+  font-size:550%; margin-top:-8px;
+}
+
+.section .half-section, .section .whole-section {
+  background-size:cover;
+}
+
+.section-workplace {
+  background:transparent url('/assets/images/features/featured-1.jpg') no-repeat left top;
+  min-height:300px;
+}
+
+.section-go {
+  background:transparent url('/assets/images/features/featured-2.jpg') no-repeat left top;
+  min-height:280px;
+}
+
+.section-gym {
+  background:transparent url('/assets/images/features/featured-3.jpg') no-repeat center top;
+  min-height:600px;
+}
