@@ -33,8 +33,26 @@ a:hover i.fa-5x {
   font-size:550%; margin-top:-8px;
 }
 
-.section .half-section, .section .whole-section {
+@media (min-width: 992px) {
+  .section .half-section>* { margin-top:0px; }
+  .section .section-left { margin:-0px -15px 0px 0px; }
+  .section .section-right { margin:-0px 0px -0px -15px; }
+}
+.section .half-section:hover .section-content {
+  color:#FFF;
+}
+.section-content {
+  padding:1px 15px;
+}
+.section .half-section {
   background-size:cover;
+  filter: grayscale(0%) brightness(100%);
+  -webkit-filter: grayscale(0%) brightness(100%);
+}
+
+.section .half-section:hover {
+  filter: grayscale(25%) brightness(75%);
+  -webkit-filter: grayscale(25%) brightness(75%);
 }
 
 .section-workplace {
@@ -44,10 +62,40 @@ a:hover i.fa-5x {
 
 .section-go {
   background:transparent url('/assets/images/features/featured-2.jpg') no-repeat left top;
-  min-height:280px;
+  min-height:300px;
 }
 
 .section-gym {
   background:transparent url('/assets/images/features/featured-3.jpg') no-repeat center top;
   min-height:600px;
+}
+
+.section-customize {
+  background:transparent url('/assets/images/features/featured-4.png') no-repeat center bottom;
+  min-height:280px;
+}
+
+.section-chair {
+  background:transparent url('/assets/images/features/featured-5.png') no-repeat center center;
+  min-height:280px;
+}
+
+.section-ways {
+  background:transparent url('/assets/images/features/featured-6.png') no-repeat center center;
+  min-height:280px;
+}
+
+.section-hook {
+  background:transparent url('/assets/images/features/featured-7.png') no-repeat center bottom;
+  min-height:280px;
+}
+
+.section-chairball {
+  background:transparent url('/assets/images/features/featured-8.jpg') no-repeat center center;
+  min-height:300px;
+}
+
+.section-minichairball {
+  background:transparent url('/assets/images/features/featured-9.jpg') no-repeat center center;
+  min-height:300px;
 }
