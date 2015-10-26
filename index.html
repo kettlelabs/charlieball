@@ -70,7 +70,7 @@
                                 <li><a href="contact.html">Contact</a></li>                    
                             </ul>                            
                         </li>--><!--//dropdown-->                         
-                        <li class="nav-item nav-item-cta last"><a class="btn btn-cta btn-cta-secondary" href="https://www.kickstarter.com/" target="_blank">Back This Project</a></li>
+                        <li class="nav-item nav-item-cta last"><a class="btn btn-cta btn-cta-secondary" href="javascript:void(0);" data-toggle="modal" data-target="#modal-subscribe">Back This Project</a></li>
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->
             </nav><!--//main-nav-->                     
@@ -91,17 +91,17 @@
         <div class="container text-center">                
             <h2 class="title"><img src="/img/logo-vector.svg" class="hero-logo" alt="the Charlie Ball"></h2>
             <p class="intro">Anytime Anywhere Acupressure</p>
-            <p><a class="btn btn-cta btn-cta-primary" href="https://www.kickstarter.com/projects/" target="_blank">Back This Project</a></p>   
-            <button type="button" class="play-trigger btn-link " data-toggle="modal" data-target="#modal-video" ><i class="fa fa-youtube-play"></i> Watch the video</button>
+            <p><a class="btn btn-cta btn-cta-primary" href="javascript:void(0);" data-toggle="modal" data-target="#modal-subscribe">Back This Project</a></p>   
+            <button type="button" class="play-trigger btn-link " data-toggle="modal" data-target="#modal-video"><i class="fa fa-youtube-play"></i> Watch the video</button>
         </div><!--//container-->
     </section><!--//promo-->
     
-    <div class="sections-wrapper"><div class="container-fluid">
+    <div class="sections-wrapper">
         <!-- ******Why Section****** -->
         <section id="uses" class="section why">
           <h2 class="title text-center">Anytime Anywhere Acupressure</h2>
-          <div class="row item">
-            <div class="col-md-6 col-sm-12 col-xs-12 col-sm-offset-0 col-xs-offset-0">
+          <div class="clearfix">
+            <div class="half-column">
               <div class="half-section section-left section-workplace">
                 <div class="section-content">
                   <h3>At the office</h3>
@@ -115,7 +115,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-12 col-xs-12 col-sm-offset-0 col-xs-offset-0">
+            <div class="half-column">
               <div class="half-section section-right section-gym">
                 <div class="section-content">
                   <h3>In the gym</h3>
@@ -123,12 +123,12 @@
                 </div>
               </div>
             </div>
-        </div><!--//item-->
-      </section><!--//why--> 
+          </div>
+        </section><!--//why--> 
       <section id="features" class="section press">
         <h2 class="title text-center">The Possibilities are Limitless</h2>
-        <div class="row item">
-          <div class="col-md-8 col-sm-12 col-xs-12 col-sm-offset-0 col-xs-offset-0">
+        <div class="clearfix">
+          <div class="two-thirds-column">
             <div class="half-section section-left section-customize">
               <div class="section-content">
                 <h3>Customize your Charlie Ball</h3>
@@ -136,7 +136,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-12 col-xs-12 col-sm-offset-0 col-xs-offset-0">
+          <div class="one-third-column">
             <div class="half-section section-right section-chair">
               <div class="section-content">
                 <h3>Attaches to almost anything</h3>
@@ -145,8 +145,8 @@
             </div>
           </div>
         </div><!--//item-->
-        <div class="row item">
-          <div class="col-md-6 col-sm-12 col-xs-12 col-sm-offset-0 col-xs-offset-0">
+        <div class="clearfix">
+          <div class="half-column">
             <div class="half-section section-left section-ways">
               <div class="section-content">
                 <h3>Not just for your back</h3>
@@ -154,7 +154,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-sm-12 col-xs-12 col-sm-offset-0 col-xs-offset-0">
+          <div class="half-column">
             <div class="half-section section-right section-hook"></div>
           </div>
         </div><!--//item-->
@@ -162,14 +162,14 @@
         
       <section id="why" class="section why">
         <h2 class="title text-center">Elegantly Simple, Simply Elegant</h2>
-        <div class="row item">
-          <div class="col-md-6 col-sm-12 col-xs-12 col-sm-offset-0 col-xs-offset-0">
+        <div class="clearfix">
+          <div class="half-column">
             <div class="half-section section-left section-chairball"></div>
           </div>
-          <div class="col-md-6 col-sm-12 col-xs-12 col-sm-offset-0 col-xs-offset-0">
+          <div class="half-column">
             <div class="half-section section-right section-minichairball"></div>
           </div>
-        </div><!--//item-->
+        </div>
       </section><!--//why--> 
 
         <!-- ******Press Section****** -->
@@ -208,12 +208,11 @@
                 Out goal is to berecognized for &ldquo;Making every day a little easier&rdquo;.
                </p>
                <p class="intro">&nbsp;</p>
-               <p><a class="btn btn-cta btn-cta-primary" href="https://www.kickstarter.com/" target="_blank">Back the Charlie Ball Now</a></p>
+               <p><a class="btn btn-cta btn-cta-primary" href="javascript:void(0);" data-toggle="modal" data-target="#modal-subscribe">Back the Charlie Ball Now</a></p>
                <p class="intro">&nbsp;</p>
             </div><!--//container-->
         </section><!--//cta-section-->
-        
-    </div></div><!--//section-wrapper-->
+    </div><!--//section-wrapper-->
     
     <!-- ******FOOTER****** --> 
     <footer class="footer">
@@ -289,6 +288,28 @@
             </div><!--//modal-content-->
         </div><!--//modal-dialog-->
     </div><!--//modal-->
+    
+    <div class="modal fade" id="modal-subscribe">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">The CharlieBall is not ready yet&hellip;</h4>
+          </div>
+          <div class="modal-body">
+            <p>Subscribe to our mailing list and we&rsquo;ll let you know when you can back us!</p>
+            <div class="form-container">
+                <form class="form-inline" action="//thecharlieball.us12.list-manage.com/subscribe/post?u=65725b3a6569ab2cef1cd471e&amp;id=3945dfedd4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div class="form-group">
+                      <input type="email" required class="form-control" value="" name="EMAIL" class="form-control" placeholder="Enter email address" id="mce-EMAIL">
+                    </div>   
+                    <div class="form-group"><button type="submit" class="btn btn-cta btn-cta-primary">Subscribe</button></div>
+                </form>
+            </div><!--//subscription-form-->
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
  
     <!-- Javascript -->          
     <script type="text/javascript" src="assets/plugins/jquery-1.11.2.min.js"></script>
