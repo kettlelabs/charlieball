@@ -1,0 +1,18 @@
+logo files add text and send to mike
+(send both versions with comma and without)
+ "Instant Relief, Anytime Anywhere"
+ "Instant Relief Anytime Anywhere"
+
+
+fonts / lettering
+ - white boxes behind, black text
+
+{anything}@thecharlieball.com --> thecharlieball@gmail.com
+
+new pages for features + benefits
+new pages for FAQs
+
+on mobile
+ - move the header text of section-content out of the shadowbox
+ - pull the shadowbox to full width
+ - shrink the whitespace
