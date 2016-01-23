@@ -106,13 +106,13 @@ a:hover i.fa-5x {
 }
 
 .section-customize {
-  background:transparent url('/assets/images/features/featured-4.png') no-repeat center bottom;
-  min-height:300px;
+  background:transparent url('/assets/images/features/featured-11.jpg') no-repeat center bottom;
+  min-height:400px;
 }
 
 .section-chair {
   background:transparent url('/assets/images/features/featured-5.png') no-repeat center center;
-  min-height:300px;
+  min-height:400px;
 }
 
 .section-ways {
@@ -122,16 +122,16 @@ a:hover i.fa-5x {
 }
 
 .section-hook {
-  background:transparent url('/assets/images/features/featured-7.png') no-repeat center bottom;
-  min-height:300px;
+  background:transparent url('/assets/images/features/featured-10.png') no-repeat center center;
+  min-height:400px;
 }
 
 .section-chairball {
   background:transparent url('/assets/images/features/featured-8.jpg') no-repeat center center;
-  min-height:320px;
+  min-height:400px;
 }
 
 .section-minichairball {
-  background:transparent url('/assets/images/features/featured-9.jpg') no-repeat center center;
-  min-height:320px;
+  background:transparent url('/assets/images/features/featured-9.jpg') no-repeat center bottom;
+  min-height:400px;
 }
