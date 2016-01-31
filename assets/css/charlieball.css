@@ -24,6 +24,13 @@
   .section .half-section .section-content {
     background-color:rgba(0,0,0,0.25);
   }
+  
+  .bg-slider-wrapper .flexslider .slide.slide-1 {
+    background-position:25% top;
+  }
+  .bg-slider-wrapper .flexslider .slide.slide-3 {
+    background-position:75% top;
+  }
 }
 @media (min-width: 768px) {
   .hero-logo { width:480px; }
@@ -141,4 +148,12 @@ a:hover i.fa-5x {
 .section-minichairball {
   background:transparent url('/assets/images/features/featured-9.jpg') no-repeat center bottom;
   min-height:400px;
+}
+
+.idbuffer:before {
+  display:block;
+  content:' ';
+  margin-top:-112px;
+  height:112px;
+  visibility:hidden;
 }
