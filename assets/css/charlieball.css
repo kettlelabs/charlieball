@@ -78,10 +78,10 @@ a:hover i.fa-5x {
 .section-content {
   padding:1px 15px;
 }
-.section-content a {
+a.section-content {
   color:inherit;
 }
-.section-content a:hover {
+a.section-content:hover, a.section-content:hover h3, a.section-content:hover p {
   color:#47c9af;
   text-decoration:none;
 }
