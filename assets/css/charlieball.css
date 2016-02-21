@@ -1,7 +1,13 @@
 /**
  * overwrite CSS rules for this template
  */
-
+.promo .btn-link {
+  font-size:24px;
+}
+.promo .btn-link .fa {
+  font-size:36px;
+  top:4px;
+}
 .header h1.logo a {
   background:transparent url('/img/logo-white-header.png') no-repeat left center;
   background-size:131.5px 24px;
