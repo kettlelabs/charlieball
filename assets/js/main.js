@@ -94,6 +94,14 @@ $(document).ready(function() {
 		e.preventDefault();
 		
 	});
+  
+  /* ====== for anchors that go to the kickstarter page, make sure to track the pixel in facebook first ====*/
+  $('a').on("click", function(event) {
+    var url = $(event.currentTarget).attr('href');
+    if (url.indexOf('kickstarter.com') > 0) {
+      fbq('track', 'ViewContent');
+    }
+  });
 
 
 });
