@@ -429,6 +429,13 @@ select {
   -o-background-size: cover;
   background-size: cover;
 }
+.bg-slider-wrapper .flexslider .slide.slide-4 {
+  background: #253340 url('../images/background/bg-header-4.jpg') no-repeat 50% top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .bg-slider-wrapper .flexslider .flex-control-nav {
   z-index: 30;
   bottom: 30px;
